@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Marlin-2.1.1-biofibers",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"__bit_reference": "cpp",
+			"__string": "cpp",
+			"deque": "cpp",
+			"ios": "cpp",
+			"random": "cpp"
+		}
+	}
+}
