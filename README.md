@@ -16,16 +16,15 @@ This repository contains all the design-related details and files to build the m
 - Supports Heated Nozzle using a Luer Lock-to-M6 3D printer nozzle adapter
 - Modular collector assemblies for applying different coatings to fibers
 
-
-## Building a Biofibers Machines
-- [Bill of Materials](https://docs.google.com/spreadsheets/d/1E_2IHzlC_cG40hGRjpHroCwSM1nkIKEBkRHdSb38-pU/edit#gid=0)
-- Download the repository
-- 3D Print the parts as listed in the BoM. Unless otherwise noted in the BoM Description/Notes, all 3D printed parts should be printed using PLA, 20% infill, 0.2 mm Layer height. The default "quality" setting in Prusa Slicer for the MK3S+/mini+ should be sufficient. The printed parts are shown in the color tan in the diagram below.
-
+## Building a Biofibers Machine
 ![Machine Diagram with Printed Parts in Tan](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/images/machine-full-assembly.png)
 
-- Electronics Wiring (coming soon!)
+- [Bill of Materials](https://docs.google.com/spreadsheets/d/1E_2IHzlC_cG40hGRjpHroCwSM1nkIKEBkRHdSb38-pU/edit#gid=0)
+- Download the repository
+- 3D Print the parts as listed in the BoM. Unless otherwise noted in the BoM Description/Notes, all 3D printed parts should be printed using PLA, 20% infill, 0.2 mm Layer height. The default "quality" setting in Prusa Slicer for the MK3S+/mini+ should be sufficient. The printed parts are shown in the color tan in the diagram above.
 
+- Download the [CAD Assembly for Fusion 360](https://drive.google.com/drive/folders/1Qh19Er5d5Sq22oTk4Mabvu63gKj0vlPQ?usp=sharing) for assembly guidance and connect with us on Discord (see info below)
+- Electronics Wiring (coming soon!)
 
 ## Using the Machine
 - Please see our [research paper](https://utilityresearchlab.org/assets/research/desktop-biofibers-spinning/chi24-desktop-biofibers-spinning.pdf) for more details on the process. 
@@ -33,15 +32,23 @@ This repository contains all the design-related details and files to build the m
 - In your host controller software, set the baud rate to `250000`, and connect as you would a typical 3D printer.
 - You can use g-code commands to set the temperature of the syringe heater and nozzle, as well as set the collector speed/direction. More details are in the paper linked above.
 
+## Join Our Discord for Assembly Help and Collaborations
+We're eager to help and collaborate 😃! If you would like to work with us on the machine, build one yourself, or explore bio-based material solutions for fiber spinning, join our Discord: [https://discord.gg/vDmk3t2FMX](https://discord.gg/vDmk3t2FMX). For all other inquires, please reach out to 
+ reach out to [Dr. Michael Rivera](https://mikeriv.com) and the [Utility Research Lab](https://utilityresearchlab.org).
+ 
 ## Planned Updates
 - Movable Z-Axis
 - Software Tool for Machine Control (for now a 3D printer host controller works to send G-code commands)
 - Custom Collector Shapes
 - Assembly guides
 
-## Collaborations
-We're eager to collaborate 😃! If you would like to work with us on the machine, build one yourself, or explore bio-based material solutions for fiber spinning, reach out to [Dr. Michael Rivera](https://mikeriv.com) and the [Utility Research Lab](https://utilityresearchlab.org).
- 
+## Machine Design Change Log
+- v1.0.1:
+    - 2024-11-07: 
+        - Added new collector spindle v2.0.0 design with a key shaft lock
+        - Added new LVE Small Gear v2 design
+- v1.0.0: Initial design
+
 ## Paper Reference 
 ```
 Eldy S. Lazaro Vasquez, Mirela Alistar, Laura Devendorf, and Michael L. Rivera. 2024. Desktop Biofibers Spinning: An Open-Source Machine for Exploring Biobased Fibers and Their Application Towards Sustainable Smart Textile Design. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI '24). Association for Computing Machinery, New York, NY, USA, Article 856, 1–18. https://doi.org/10.1145/3613904.3642387
