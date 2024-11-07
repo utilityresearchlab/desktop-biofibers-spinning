@@ -1,4 +1,4 @@
-# Desktop Biofibers Spinning Machine v1.0.0
+# Desktop Biofibers Spinning Machine v1.0.1
 
 ![Machine Overview](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/images/machine-overview.png)
 
