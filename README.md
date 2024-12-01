@@ -24,7 +24,8 @@ This repository contains all the design-related details and files to build the m
 - 3D Print the parts as listed in the BoM. Unless otherwise noted in the BoM Description/Notes, all 3D printed parts should be printed using PLA, 20% infill, 0.2 mm Layer height. The default "quality" setting in Prusa Slicer for the MK3S+/mini+ should be sufficient. The printed parts are shown in the color tan in the diagram above.
 
 - Download the [CAD Assembly for Fusion 360](https://drive.google.com/drive/folders/1Qh19Er5d5Sq22oTk4Mabvu63gKj0vlPQ?usp=sharing) for assembly guidance and connect with us on Discord (see info below)
-- Follow the [Electronics Wiring Diagram](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/electronics-assembly/biofibers-electronics-wiring-diagram-v1.0.1.jpg) alongside the [RAMPS 1.4 Schematic](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/electronics-assembly/RAMPS1.4-PinOut-Schematic.png)
+- Follow the [Electronics Wiring Diagram](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/electronics-assembly/biofibers-electronics-wiring-diagram-v1.0.1.jpg) alongside the
+  [RAMPS 1.4 Pin Out Schematic](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/electronics-assembly/RAMPS%201.4/RAMPS1.4-PinOut-Schematic.png).
 
 ![Electronics Wiring Diagram for the Biofibers Machine](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/electronics-assembly/biofibers-electronics-wiring-diagram-v1.0.1.jpg)
 
@@ -66,6 +67,7 @@ Mohr, Stefan Peterek, Dr. Kazim Acatay, and research assistants at
 the Institut für Textiltechnik (ITA) of RWTH Aachen University for
 working with us as we explored fiber wet-spinning in their facilities. We are thankful to Philipp R. Stoessel for explaining his previous work with gelatin fibers wet spinning in very simple words which allowed us to replicate his spinning solution formulation. We would also like to acknowledge the support of Miles Henry Lewis who helped with designing and 3D printing the very first version of this machine.
 
-This machine leverages several open-source projects including the [Marlin 2.1.1 firmware](https://marlinfw.org/) under GPL license, the [Large Volume Extruder](https://3d.nih.gov/entries/3DPX-008366) under CC-BY-SA 4.0, and the [Ender 3 V2 X axis belt tensioner replacement](https://www.printables.com/model/309148-ender-3-v2-x-axis-belt-tensioner-replacement) under CC-BY-NC-SA 4.0. The associated licenses can be found in the relevant folders of this repository.
+### Open Source Projects
+This machine leverages several open-source projects including the [RepRap RAMPS 1.4](https://reprap.org/wiki/RAMPS_1.4) under GPL v3 License, the [Marlin 2.1.1 firmware](https://marlinfw.org/) under GPL license, the [Large Volume Extruder](https://3d.nih.gov/entries/3DPX-008366) under CC-BY-SA 4.0, and the [Ender 3 V2 X axis belt tensioner replacement](https://www.printables.com/model/309148-ender-3-v2-x-axis-belt-tensioner-replacement) under CC-BY-NC-SA 4.0. The associated licenses can be found in the relevant folders of this repository.
 ##
  
