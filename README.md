@@ -24,7 +24,8 @@ This repository contains all the design-related details and files to build the m
 - 3D Print the parts as listed in the BoM. Unless otherwise noted in the BoM Description/Notes, all 3D printed parts should be printed using PLA, 20% infill, 0.2 mm Layer height. The default "quality" setting in Prusa Slicer for the MK3S+/mini+ should be sufficient. The printed parts are shown in the color tan in the diagram above.
 
 - Download the [CAD Assembly for Fusion 360](https://drive.google.com/drive/folders/1Qh19Er5d5Sq22oTk4Mabvu63gKj0vlPQ?usp=sharing) for assembly guidance and connect with us on Discord (see info below)
-- Electronics Wiring (coming soon!)
+- Follow the Electronics Wiring Diagram 
+![Electronics Wiring Diagram for the Biofibers Machine](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/electronics-assembly/biofibers-electronics-wiring-diagram-v1.0.1.jpg)
 
 ## Using the Machine
 - Please see our [research paper](https://utilityresearchlab.org/assets/research/desktop-biofibers-spinning/chi24-desktop-biofibers-spinning.pdf) for more details on the process. 
@@ -44,6 +45,8 @@ We're eager to help and collaborate 😃! If you would like to work with us on t
 
 ## Machine Design Change Log
 - v1.0.1:
+    - 2024-11-30:
+        - Added Electronics Wiring Diagram
     - 2024-11-07: 
         - Added new collector spindle v2.0.0 design with a key shaft lock
         - Added new LVE Small Gear v2 design
