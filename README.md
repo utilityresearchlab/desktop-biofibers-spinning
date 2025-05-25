@@ -29,6 +29,8 @@ This repository contains all the design-related details and files to build the m
 
 ![Electronics Wiring Diagram for the Biofibers Machine](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/electronics-assembly/biofibers-electronics-wiring-diagram-v1.0.1.jpg)
 
+- Follow our [work-in-progress assembly guide](https://docs.google.com/document/d/1JrAbMuTHmfADzdMDxia9Z5dNtl7umH7gnYQXavgpXdA/edit?tab=t.0#heading=h.pwn6s3sev8zz) for more instructions. 
+
 ## Using the Machine
 We first recommend reviewing our [research paper](https://utilityresearchlab.org/assets/research/desktop-biofibers-spinning/chi24-desktop-biofibers-spinning.pdf) for more details on the fiber spinning process before using the machine.
 
@@ -46,12 +48,14 @@ We're eager to help and collaborate 😃! If you would like to work with us on t
  
 ## Planned Updates
 - Movable Z-Axis
-- Software Tool for Machine Control (for now a 3D printer host controller works to send G-code commands)
+- ~Software Tool for Machine Control (for now a 3D printer host controller works to send G-code commands)~
 - Custom Collector Shapes
-- Assembly guides
+- Assembly guides - [WIP Guide Here](https://docs.google.com/document/d/1JrAbMuTHmfADzdMDxia9Z5dNtl7umH7gnYQXavgpXdA/edit?tab=t.0#heading=h.pwn6s3sev8zz)
 
 ## Machine Design Change Log
 - v1.0.1:
+    - 2025-05-24:
+      - Release Machine Control Desktop Application for MacOS and Windows    
     - 2024-11-30:
         - Added Electronics Wiring Diagram
     - 2024-11-07: 
