@@ -30,11 +30,16 @@ This repository contains all the design-related details and files to build the m
 ![Electronics Wiring Diagram for the Biofibers Machine](https://github.com/utilityresearchlab/desktop-biofibers-spinning/blob/main/hardware/electronics-assembly/biofibers-electronics-wiring-diagram-v1.0.1.jpg)
 
 ## Using the Machine
-- Please see our [research paper](https://utilityresearchlab.org/assets/research/desktop-biofibers-spinning/chi24-desktop-biofibers-spinning.pdf) for more details on the process. 
-- It is highly recommended that you use a 3D printer host controller software like [Repetier Host](https://www.repetier.com/download-software/) to communicate with the machine.
-- In your host controller software, set the baud rate to `250000`, and connect as you would a typical 3D printer.
-- You can use g-code commands to set the temperature of the syringe heater and nozzle, as well as set the collector speed/direction. More details are in the paper linked above.
+We first recommend reviewing our [research paper](https://utilityresearchlab.org/assets/research/desktop-biofibers-spinning/chi24-desktop-biofibers-spinning.pdf) for more details on the fiber spinning process before using the machine.
 
+To control the machine, we highly suggest using our open-source tool for MacOS and Windows available on our [Biofibers Machine Control repository](https://github.com/utilityresearchlab/biofibers-machine-control/). It streamlines setting up the machine as well as performing pull downs and the spinning procedure. You can do all of this without writing any g-code commands!
+
+
+<img width="500" alt="Screenshot 2025-05-24 at 10 03 42 PM" src="https://github.com/user-attachments/assets/601c253f-4694-463a-bf0f-a7bcf9eae66a" />
+
+
+Alternatively, you may use any 3D printer host controller software like [Repetier Host](https://www.repetier.com/download-software/) to communicate with the machine. In your host controller software, set the baud rate to `250000`, and connect as you would a typical 3D printer. You can then use g-code commands to set the temperature of the syringe heater and nozzle, as well as set the collector speed/direction. More details are in the paper linked above.
+   
 ## Join Our Discord for Assembly Help and Collaborations
 We're eager to help and collaborate 😃! If you would like to work with us on the machine, build one yourself, or explore bio-based material solutions for fiber spinning, join our Discord: [https://discord.gg/vDmk3t2FMX](https://discord.gg/vDmk3t2FMX). For all other inquires, please reach out to 
  reach out to [Dr. Michael Rivera](https://mikeriv.com) and the [Utility Research Lab](https://utilityresearchlab.org).
